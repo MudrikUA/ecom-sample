@@ -1,0 +1,21 @@
+.profileNav {
+    width: 250px;
+    flex-shrink: 1;
+    font-weight: 600;
+
+}
+
+.profileNavEl {
+    border-bottom: 1px solid lightgrey;
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #808080;
+    text-decoration: none;
+}
+
+.selected {
+    color: black;
+}

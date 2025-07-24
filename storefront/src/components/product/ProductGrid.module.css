@@ -1,0 +1,13 @@
+.productGrid {
+    display: grid;
+    grid-template-columns: 262px 262px 262px;
+    gap: 12px;
+    width: 810px;
+}
+
+.productGridContant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}

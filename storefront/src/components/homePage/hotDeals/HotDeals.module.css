@@ -1,0 +1,39 @@
+.hot_deal_container {
+    display: grid;
+    /* Змінюємо фіксовану кількість колонок на адаптивну */
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    height: auto;
+    /* Змінюємо фіксовану висоту на auto */
+    grid-gap: 8px;
+}
+
+@media (max-width: 480px) {
+    .hot_deal_tile1 {
+        /* Використовуємо span замість конкретних ліній сітки */
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+
+.hot_deal_tile {
+    border: 1px solid black;
+}
+
+.hot_deal_header {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    /* Web/H2 32px/Extra bold */
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.hot_deal_header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+}

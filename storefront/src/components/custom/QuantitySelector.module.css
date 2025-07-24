@@ -1,0 +1,29 @@
+.quantitySelector {
+    width: 108px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 170px;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    background: var(--Gray-Scale-White, #FFF);
+    padding: 8px;
+}
+
+.quantityBtn {
+    width: 34px;
+    height: 34px;
+    border-radius: 170px;
+    background: var(--Gray-Scale-Gray-50, #F2F2F2);
+    text-align: center;
+    cursor: pointer;
+    align-content: center;
+}
+
+.quantity {
+    flex: 1;
+    text-align: center;
+    user-select: none;
+}

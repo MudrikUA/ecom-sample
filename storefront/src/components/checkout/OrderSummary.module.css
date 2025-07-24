@@ -1,0 +1,86 @@
+.checkoutSumary {
+    max-width: 277px;
+    min-width: 225px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 4px 12px 0px rgba(141, 175, 185, 0.24);
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.checkoutSumaryTitle {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.checkoutSumaryLine {
+    color: var(--Gray-Scale-Gray-700, #4D4D4D);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkoutSumaryLineHighlight {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.checkoutSumaryLine span {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.checkoutSumary button {
+    width: 100%;
+}
+
+.checkoutSumaryTile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.checkoutSumaryDesc {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkoutSumaryDescBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkoutSumaryDescText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.checkoutSumaryItemPrice {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+}

@@ -1,0 +1,96 @@
+.main_promo_container {
+    display: flex;
+    width: 636px;
+    height: 445px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid var(--Solid-Colours-Standard-Black);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: rgb(233, 129, 233);
+}
+
+.main_promo_contant {
+    height: 247px;
+    width: 441px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.main_promo_details::before {
+    content: '';
+    position: absolute;
+    height: 58px;
+    border-left: 1px solid var(--Solid-Colours-Standard-Black);
+}
+
+.main_promo_title {
+    color: var(--Gray-Scale-White);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.main_promo_price_block {
+    width: 140px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    padding-left: 9px;
+}
+
+.main_promo_price {
+    color: var(--Gray-Scale-White);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.main_promo_price_discont {
+    border-radius: 0px 17.792px 17.792px 0px;
+    background: var(--Gray-Scale-White);
+    box-shadow: 0px 0.741px 0.741px 0px rgba(0, 0, 0, 0.08);
+    height: 34px;
+    width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Solid-Colours-Standard-Black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.main_promo_descritpion {
+    color: var(--Gray-Scale-White);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    width: 140px;
+    height: 35px;
+    padding-top: 6px;
+    padding-left: 9px;
+}
+
+.main_promo_button {
+    text-decoration: none;
+    color: var(--Gray-Scale-White);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    display: flex;
+    gap: 6px;
+}
+

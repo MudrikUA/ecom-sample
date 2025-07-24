@@ -1,0 +1,23 @@
+.orderContainer{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.orderHeader{
+    font-weight: 600;
+}
+
+.shippingHeader{
+    font-weight: 600;
+}
+
+.formHeader {
+    font-weight: 700;
+}

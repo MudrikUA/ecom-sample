@@ -1,0 +1,22 @@
+.button {
+    height: 48px;
+    width: 100%;
+    border-radius: 44px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.primary {
+    border: none;
+    background: var(--grey-dark, #2F3233);
+    color: var(--Gray-Scale-White, #FFF);
+}
+
+.secondaty {
+    border: 1px solid var(--grey-dark, #2F3233);
+    color: var(--grey-dark, #2F3233);
+}

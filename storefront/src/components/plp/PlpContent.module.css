@@ -1,0 +1,10 @@
+.plp_ref {
+    width: 204px;
+}
+  
+.plp_content {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+} 
